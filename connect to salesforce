@@ -13,9 +13,9 @@ from pyspark.sql.functions import *
 spark.conf.set("spark.sql.execution.arrow.pyspark.enabled", "false")
 
 # %%
-username = "sa_sf_edm@kindlymd.com"
-password = "m7_)U(j<:e6-Sy7"
-secret = "koUvyxL6oLtdQbE6CuOqH11d9"
+username = 'insert user"
+password = "insert pass"
+secret = "insert secret"
 
 # %%
 sf = Salesforce(username=username, password=password, security_token=secret)
